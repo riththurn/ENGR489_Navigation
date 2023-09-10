@@ -1,0 +1,26 @@
+[0.447s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build --no-deps install_data
+[0.635s] running develop
+[0.636s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.636s]   warnings.warn(
+[0.639s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.639s]   warnings.warn(
+[0.675s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.676s]   warnings.warn(
+[0.676s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.676s]   warnings.warn(
+[0.739s] running egg_info
+[0.740s] writing positionlogger.egg-info/PKG-INFO
+[0.740s] writing dependency_links to positionlogger.egg-info/dependency_links.txt
+[0.741s] writing entry points to positionlogger.egg-info/entry_points.txt
+[0.741s] writing requirements to positionlogger.egg-info/requires.txt
+[0.742s] writing top-level names to positionlogger.egg-info/top_level.txt
+[0.744s] reading manifest file 'positionlogger.egg-info/SOURCES.txt'
+[0.745s] writing manifest file 'positionlogger.egg-info/SOURCES.txt'
+[0.746s] running build_ext
+[0.746s] Creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger.egg-link (link to .)
+[0.747s] Installing odomLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[0.748s] Installing relativePositionLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[0.748s] 
+[0.748s] Installed /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger
+[0.748s] running install_data
+[0.767s] Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger' returned '0': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build --no-deps install_data

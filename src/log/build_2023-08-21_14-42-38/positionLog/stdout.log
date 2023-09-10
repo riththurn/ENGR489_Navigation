@@ -1,0 +1,33 @@
+running egg_info
+creating ../build/positionLog/positionLog.egg-info
+writing ../build/positionLog/positionLog.egg-info/PKG-INFO
+writing dependency_links to ../build/positionLog/positionLog.egg-info/dependency_links.txt
+writing entry points to ../build/positionLog/positionLog.egg-info/entry_points.txt
+writing requirements to ../build/positionLog/positionLog.egg-info/requires.txt
+writing top-level names to ../build/positionLog/positionLog.egg-info/top_level.txt
+writing manifest file '../build/positionLog/positionLog.egg-info/SOURCES.txt'
+reading manifest file '../build/positionLog/positionLog.egg-info/SOURCES.txt'
+writing manifest file '../build/positionLog/positionLog.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build/lib
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build/lib/positionLog
+copying positionLog/__init__.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build/lib/positionLog
+running install
+running install_lib
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages/positionLog
+copying /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build/lib/positionLog/__init__.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages/positionLog
+byte-compiling /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages/positionLog/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/share/ament_index
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/share/ament_index/resource_index
+creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/share/ament_index/resource_index/packages
+copying resource/positionLog -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/share/ament_index/resource_index/packages
+copying package.xml -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/share/positionLog
+running install_egg_info
+Copying ../build/positionLog/positionLog.egg-info to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages/positionLog-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odomLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/positionLog
+Installing relativePositionLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/positionLog
+writing list of installed files to '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/install.log'

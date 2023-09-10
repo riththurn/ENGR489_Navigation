@@ -1,0 +1,4 @@
+[console_scripts]
+odomLogger = positionlogger.odomLogger:main
+relativePositionLogger = positionlogger.relativePositionLogger:main
+

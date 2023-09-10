@@ -1,0 +1,5 @@
+[0.043s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[0.257s] [35m[1mConsolidate compiler generated dependencies of target nav2_ultrasonic_costmap_plugin_core[0m
+[0.364s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o[0m
+[9.497s] [100%] [32m[1mLinking CXX shared library libnav2_ultrasonic_costmap_plugin_core.so[0m
+[10.431s] [100%] Built target nav2_ultrasonic_costmap_plugin_core

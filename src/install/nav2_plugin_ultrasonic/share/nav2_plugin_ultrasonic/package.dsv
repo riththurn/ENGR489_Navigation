@@ -1,0 +1,6 @@
+source;share/nav2_plugin_ultrasonic/hook/cmake_prefix_path.ps1
+source;share/nav2_plugin_ultrasonic/hook/cmake_prefix_path.dsv
+source;share/nav2_plugin_ultrasonic/hook/cmake_prefix_path.sh
+source;share/nav2_plugin_ultrasonic/hook/ld_library_path_lib.ps1
+source;share/nav2_plugin_ultrasonic/hook/ld_library_path_lib.dsv
+source;share/nav2_plugin_ultrasonic/hook/ld_library_path_lib.sh

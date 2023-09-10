@@ -1,0 +1,9 @@
+[0.460s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionLog': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionLog build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/install.log --single-version-externally-managed
+[0.626s] running egg_info
+[0.627s] writing ../build/positionLog/positionLog.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../build/positionLog/positionLog.egg-info/dependency_links.txt
+[0.627s] writing entry points to ../build/positionLog/positionLog.egg-info/entry_points.txt
+[0.628s] writing requirements to ../build/positionLog/positionLog.egg-info/requires.txt
+[0.628s] writing top-level names to ../build/positionLog/positionLog.egg-info/top_level.txt
+[0.629s] error: package directory 'positionLog' does not exist
+[0.645s] Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionLog' returned '1': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionLog build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionLog/install.log --single-version-externally-managed

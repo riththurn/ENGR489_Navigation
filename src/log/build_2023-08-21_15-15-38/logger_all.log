@@ -1,0 +1,195 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbeffdae710>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbeffe9bd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbeffe9bd90>>)
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hurnenryan/Documents/workspaces/ros2_ws/src'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ros'
+[0.246s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_ultrasonic_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_ultrasonic_costmap_plugin'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ignore'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ignore_ament_install'
+[0.246s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['colcon_pkg']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'colcon_pkg'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['colcon_meta']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'colcon_meta'
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['ros']
+[0.247s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'positionlogger' with type 'ros.ament_python' and name 'positionlogger'
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.269s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/hurnenryan/Documents/workspaces/ros2_ws/src/install
+[0.270s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 314 installed packages in /opt/ros/humble
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_ultrasonic_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin', 'merge_install': False, 'path': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'positionlogger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger', 'merge_install': False, 'path': '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger', 'symlink_install': True, 'test_result_base': None}
+[0.311s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin'
+[0.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger' with build type 'ament_python'
+[0.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('positionlogger', 'ament_prefix_path')
+[0.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.ps1'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.dsv'
+[0.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.sh'
+[0.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin
+[0.518s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.761s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/ament_index/resource_index/packages/positionlogger
+[0.761s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.xml
+[0.762s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger/odomLogger
+[0.762s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger/relativePositionLogger
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build --no-deps install_data
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('positionlogger', 'pythonpath_develop')
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger' returned '0': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build --no-deps install_data
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/share/positionlogger/hook/pythonpath_develop.ps1'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/share/positionlogger/hook/pythonpath_develop.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/share/positionlogger/hook/pythonpath_develop.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger' for CMake module files
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/bin'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/pkgconfig/positionlogger.pc'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('positionlogger', 'pythonpath')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/pythonpath.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/pythonpath.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/hook/pythonpath.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/bin'
+[1.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(positionlogger)
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/colcon-core/packages/positionlogger)
+[2.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin
+[2.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake --build /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[2.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake --build /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[2.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake --install /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin
+[2.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_ultrasonic_costmap_plugin)
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin' for CMake module files
+[2.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionLog:/opt/ros/humble /usr/bin/cmake --install /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin' for CMake config files
+[2.772s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_ultrasonic_costmap_plugin', 'cmake_prefix_path')
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.ps1'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.dsv'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.sh'
+[2.775s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib'
+[2.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_ultrasonic_costmap_plugin', 'ld_library_path_lib')
+[2.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.ps1'
+[2.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.dsv'
+[2.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.sh'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib/pkgconfig/nav2_ultrasonic_costmap_plugin.pc'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib/python3.10/site-packages'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[2.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.dsv'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.sh'
+[2.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.bash'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.zsh'
+[2.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/colcon-core/packages/nav2_ultrasonic_costmap_plugin)
+[2.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_ultrasonic_costmap_plugin)
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin' for CMake module files
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin' for CMake config files
+[2.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_ultrasonic_costmap_plugin', 'cmake_prefix_path')
+[2.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.ps1'
+[2.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.dsv'
+[2.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/cmake_prefix_path.sh'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib'
+[2.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_ultrasonic_costmap_plugin', 'ld_library_path_lib')
+[2.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.ps1'
+[2.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.dsv'
+[2.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/hook/ld_library_path_lib.sh'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib/pkgconfig/nav2_ultrasonic_costmap_plugin.pc'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/lib/python3.10/site-packages'
+[2.810s] Level 1:colcon.colcon_core.environment:checking '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.ps1'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.dsv'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.sh'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.bash'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.zsh'
+[2.815s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/nav2_ultrasonic_costmap_plugin/share/colcon-core/packages/nav2_ultrasonic_costmap_plugin)
+[2.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.816s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.819s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.831s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.832s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/local_setup.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/_local_setup_util_ps1.py'
+[2.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/setup.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/local_setup.sh'
+[2.836s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/_local_setup_util_sh.py'
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/setup.sh'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/local_setup.bash'
+[2.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/setup.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/local_setup.zsh'
+[2.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/setup.zsh'

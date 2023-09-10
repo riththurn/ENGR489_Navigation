@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_plugin_ultrasonic(depreciated)/CMakeLists.txt" does not match the source "/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_plugin_ultrasonic/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

@@ -1,0 +1,37 @@
+[0.469s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log --single-version-externally-managed
+[0.636s] running egg_info
+[0.637s] creating ../build/positionlogger/positionlogger.egg-info
+[0.637s] writing ../build/positionlogger/positionlogger.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../build/positionlogger/positionlogger.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../build/positionlogger/positionlogger.egg-info/entry_points.txt
+[0.639s] writing requirements to ../build/positionlogger/positionlogger.egg-info/requires.txt
+[0.639s] writing top-level names to ../build/positionlogger/positionlogger.egg-info/top_level.txt
+[0.640s] writing manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[0.641s] reading manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.643s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build
+[0.643s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib
+[0.643s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib/positionlogger
+[0.644s] copying positionlogger/__init__.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib/positionlogger
+[0.644s] running install
+[0.644s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.644s]   warnings.warn(
+[0.645s] running install_lib
+[0.646s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger
+[0.646s] copying /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib/positionlogger/__init__.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger
+[0.646s] byte-compiling /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger/__init__.py to __init__.cpython-310.pyc
+[0.647s] running install_data
+[0.648s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/ament_index
+[0.648s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/ament_index/resource_index
+[0.648s] creating /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/ament_index/resource_index/packages
+[0.648s] copying resource/positionlogger -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/ament_index/resource_index/packages
+[0.649s] copying package.xml -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/share/positionlogger
+[0.649s] running install_egg_info
+[0.650s] Copying ../build/positionlogger/positionlogger.egg-info to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.668s] Installing odomLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[0.668s] Installing relativePositionLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[0.668s] writing list of installed files to '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log'
+[0.687s] Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger' returned '0': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log --single-version-externally-managed

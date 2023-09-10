@@ -1,0 +1,38 @@
+[0.792s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build
+[1.009s] running develop
+[1.010s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.010s]   warnings.warn(
+[1.013s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.013s]   warnings.warn(
+[1.059s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.059s]   warnings.warn(
+[1.060s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.060s]   warnings.warn(
+[1.165s] Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger' returned '0': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build
+[1.167s] Invoking command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log --single-version-externally-managed
+[1.372s] running egg_info
+[1.373s] writing ../build/positionlogger/positionlogger.egg-info/PKG-INFO
+[1.374s] writing dependency_links to ../build/positionlogger/positionlogger.egg-info/dependency_links.txt
+[1.374s] writing entry points to ../build/positionlogger/positionlogger.egg-info/entry_points.txt
+[1.375s] writing requirements to ../build/positionlogger/positionlogger.egg-info/requires.txt
+[1.375s] writing top-level names to ../build/positionlogger/positionlogger.egg-info/top_level.txt
+[1.379s] reading manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[1.379s] writing manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[1.380s] running build
+[1.380s] running build_py
+[1.381s] copying positionlogger/relativePositionLogger.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib/positionlogger
+[1.381s] running install
+[1.381s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.382s]   warnings.warn(
+[1.382s] running install_lib
+[1.384s] copying /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build/lib/positionlogger/relativePositionLogger.py -> /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger
+[1.386s] byte-compiling /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger/relativePositionLogger.py to relativePositionLogger.cpython-310.pyc
+[1.386s] running install_data
+[1.386s] running install_egg_info
+[1.388s] removing '/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info' (and everything under it)
+[1.389s] Copying ../build/positionlogger/positionlogger.egg-info to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info
+[1.390s] running install_scripts
+[1.413s] Installing odomLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[1.414s] Installing relativePositionLogger script to /home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/positionlogger
+[1.414s] writing list of installed files to '/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log'
+[1.441s] Invoked command in '/home/hurnenryan/Documents/workspaces/ros2_ws/src/positionlogger' returned '0': PYTHONPATH=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/prefix_override:/home/hurnenryan/Documents/workspaces/ros2_ws/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/build install --record /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/positionlogger/install.log --single-version-externally-managed

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../build/positionLog/positionLog.egg-info/PKG-INFO
+../build/positionLog/positionLog.egg-info/SOURCES.txt
+../build/positionLog/positionLog.egg-info/dependency_links.txt
+../build/positionLog/positionLog.egg-info/entry_points.txt
+../build/positionLog/positionLog.egg-info/requires.txt
+../build/positionLog/positionLog.egg-info/top_level.txt
+../build/positionLog/positionLog.egg-info/zip-safe
+positionLog/__init__.py
+resource/positionLog
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
