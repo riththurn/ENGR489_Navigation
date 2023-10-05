@@ -1,0 +1,153 @@
+[0.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.190s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe094c2e6b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe094d9bee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe094d9bee0>>)
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.211s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Documents/ENGR489_Navigation/src'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_ultrasonic_costmap_plugin) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_ultrasonic_costmap_plugin' with type 'ros.ament_cmake' and name 'nav2_ultrasonic_costmap_plugin'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(positionlogger) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'positionlogger' with type 'ros.ament_python' and name 'positionlogger'
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.238s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 315 installed packages in /opt/ros/humble
+[0.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'nav2_ultrasonic_costmap_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_ultrasonic_costmap_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin', 'merge_install': False, 'path': '/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'positionlogger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'positionlogger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger', 'merge_install': False, 'path': '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger', 'symlink_install': False, 'test_result_base': None}
+[0.277s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin'
+[0.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger' with build type 'ament_python'
+[0.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('positionlogger', 'ament_prefix_path')
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.ps1'
+[0.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.dsv'
+[0.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/ament_prefix_path.sh'
+[0.288s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin
+[0.460s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger': PYTHONPATH=/home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/prefix_override:/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/build install --record /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/install.log --single-version-externally-managed
+[0.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger' returned '0': PYTHONPATH=/home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/prefix_override:/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/positionlogger build --build-base /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/build install --record /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/install.log --single-version-externally-managed
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger' for CMake module files
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger' for CMake config files
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/bin'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/pkgconfig/positionlogger.pc'
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages'
+[0.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('positionlogger', 'pythonpath')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/pythonpath.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/pythonpath.dsv'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/hook/pythonpath.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/bin'
+[0.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(positionlogger)
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/package.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/package.dsv'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/package.sh'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/package.bash'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/positionlogger/package.zsh'
+[0.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/share/colcon-core/packages/positionlogger)
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[3.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[3.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_ultrasonic_costmap_plugin)
+[3.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin' for CMake module files
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin' for CMake config files
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/lib/pkgconfig/nav2_ultrasonic_costmap_plugin.pc'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/lib/python3.10/site-packages'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/bin'
+[3.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.ps1'
+[3.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.dsv'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.sh'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.bash'
+[3.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.zsh'
+[3.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/colcon-core/packages/nav2_ultrasonic_costmap_plugin)
+[3.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.420s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.424s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.424s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.434s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/local_setup.ps1'
+[3.435s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/ENGR489_Navigation/src/install/_local_setup_util_ps1.py'
+[3.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/setup.ps1'
+[3.437s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/local_setup.sh'
+[3.437s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Documents/ENGR489_Navigation/src/install/_local_setup_util_sh.py'
+[3.437s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/setup.sh'
+[3.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/local_setup.bash'
+[3.438s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/setup.bash'
+[3.439s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/local_setup.zsh'
+[3.439s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Documents/ENGR489_Navigation/src/install/setup.zsh'

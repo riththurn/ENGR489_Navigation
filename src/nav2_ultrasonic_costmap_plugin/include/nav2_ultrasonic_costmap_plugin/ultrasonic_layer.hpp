@@ -57,7 +57,7 @@ namespace nav2_ultrasonic_costmap_plugin
  * @class UltrasonicLayer
  * @brief Takes in IR/Sonar/similar point measurement sensors and populates in costmap
  */
-class UltrasonicLayer : public nav2_costmap_2d::CostmapLayer
+class UltrasonicLayer : public nav2_costmap_2d::CostmapLayer //class Layer as recommended by docmentation does not contain nessisary values, like CostmapLayer
 {
 public:
   enum class InputSensorType
@@ -236,6 +236,46 @@ private:
   {
     return (Bx - Ax) * (Cy - Ay) - (By - Ay) * (Cx - Ax);
   }
+  
+  double distanceToSegment(double x, double y, double x1, double y1) { // added new function
+  double Asqrd = pow((x-x1),2);
+  double Bsqrd = pow((y-y1),2);
+  double C = sqrt(Asqrd+Bsqrd);
+  return C;
+  /*
+    double A = x - x1;
+    double B = y - y1;
+    double C = x2 - x1;
+    double D = y2 - y1;
+
+    double dot = A * C + B * D;
+    double len_sq = C * C + D * D;
+    double param = -1;
+    if (len_sq != 0) {
+        param = dot / len_sq;
+    }
+
+    double xx, yy;
+
+    if (param < 0) {
+        xx = x1;
+        yy = y1;
+    } else if (param > 1) {
+        xx = x2;
+        yy = y2;
+    } else {
+        xx = x1 + param * C;
+        yy = y1 + param * D;
+    }
+
+    double dx = x - xx;
+    double dy = y - yy;
+    return sqrt(dx * dx + dy * dy);
+    */
+
+}
+
+
 };
 }  // namespace nav2_costmap_2d
 #endif  // NAV2_COSTMAP_2D__RANGE_SENSOR_LAYER_HPP_

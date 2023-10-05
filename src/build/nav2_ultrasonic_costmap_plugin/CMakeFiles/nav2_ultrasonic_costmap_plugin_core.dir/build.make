@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/progress.make
 include CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/flags.make
 
 CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/flags.make
-CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o: /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp
+CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o: /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp
 CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o -MF CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o.d -o CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o -c /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o -MF CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o.d -o CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o -c /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp
 
 CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp > CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp > CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.i
 
 CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp -o CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp -o CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.s
 
 # Object files for target nav2_ultrasonic_costmap_plugin_core
 nav2_ultrasonic_costmap_plugin_core_OBJECTS = \
@@ -375,7 +375,7 @@ libnav2_ultrasonic_costmap_plugin_core.so: /opt/ros/humble/lib/librosidl_runtime
 libnav2_ultrasonic_costmap_plugin_core.so: /opt/ros/humble/lib/librcutils.so
 libnav2_ultrasonic_costmap_plugin_core.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libnav2_ultrasonic_costmap_plugin_core.so: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libnav2_ultrasonic_costmap_plugin_core.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libnav2_ultrasonic_costmap_plugin_core.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -387,6 +387,6 @@ CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/clean:
 .PHONY : CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/clean
 
 CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/depend:
-	cd /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/depend
 

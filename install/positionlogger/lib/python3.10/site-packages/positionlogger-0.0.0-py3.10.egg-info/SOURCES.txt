@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/positionlogger/positionlogger.egg-info/PKG-INFO
+../../build/positionlogger/positionlogger.egg-info/SOURCES.txt
+../../build/positionlogger/positionlogger.egg-info/dependency_links.txt
+../../build/positionlogger/positionlogger.egg-info/entry_points.txt
+../../build/positionlogger/positionlogger.egg-info/requires.txt
+../../build/positionlogger/positionlogger.egg-info/top_level.txt
+../../build/positionlogger/positionlogger.egg-info/zip-safe
+positionlogger/__init__.py
+positionlogger/odomLogger.py
+positionlogger/relativePositionLogger.py
+resource/positionlogger
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -3,6 +3,7 @@
  *
  *  Copyright (c) 2018 David V. Lu!!
  *  Copyright (c) 2020, Bytes Robotics
+ *  Copyright (c) 2023 Ryan Hurnen
  *  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
@@ -44,7 +45,7 @@
 #include "geometry_msgs/msg/point_stamped.hpp"
 
 
-#include "/home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp"
+#include "/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp"
 
 using nav2_costmap_2d::LETHAL_OBSTACLE;
 using nav2_costmap_2d::INSCRIBED_INFLATED_OBSTACLE;
@@ -286,11 +287,24 @@ void UltrasonicLayer::updateCostmap(
   sensor_msgs::msg::Range & range_message,
   bool clear_sensor_cone)
 {
+
+  /*
+  This function updates the costmap based on the data from an ultrasonic range sensor.
+  It takes in a 'range_message' which contains the data from the sesnor and a boolean
+  'clear_sensor_cone' which indicates whether the sensor cone should be cleared
+  */
+
+ //----initalisation---
   max_angle_ = range_message.field_of_view / 2;
   geometry_msgs::msg::PointStamped in, out;
+
+// setting up the transformation, timesetamp and frame ID of the
+//  incoming range message are assigned to the  'in' point
+
   in.header.stamp = range_message.header.stamp; // Time stamp
   in.header.frame_id = range_message.header.frame_id; //Frame data assosiated with
 
+// checking if a transformation from sensor frame to global frame is possible
   if (!tf_->canTransform( //can we transform? essentially are they within a certain time period, or transformable in general, canTransform (const std::string &target_frame, const std::string &source_frame, const tf2::TimePoint &target_time, const tf2::Duration timeout, std::string *errstr=NULL) const override
       in.header.frame_id, global_frame_,
       tf2_ros::fromMsg(in.header.stamp),
@@ -301,10 +315,15 @@ void UltrasonicLayer::updateCostmap(
       global_frame_.c_str(), in.header.frame_id.c_str());
     return;
   }
+// transforming the origon point of the sensor to the global frame. 
+// The transformed x and y co-ordinates are stored in 'ox', 'oy'
 
   tf_->transform(in, out, global_frame_, transform_tolerance_); 
 
   double ox = out.point.x, oy = out.point.y;
+
+
+// transforming the end of dectected range to the global frame of rerference
 
   in.point.x = range_message.range; 
 
@@ -312,8 +331,12 @@ void UltrasonicLayer::updateCostmap(
 
   double tx = out.point.x, ty = out.point.y;
 
-  // calculate target props
+
+
+  // calculate target properties, relative position, direction and distance from the origon
   double dx = tx - ox, dy = ty - oy, theta = atan2(dy, dx), d = sqrt(dx * dx + dy * dy); //find point magtitude and direction, relative to global position
+
+
 
   // Integer Bounds of Update
   int bx0, by0, bx1, by1;
@@ -331,15 +354,15 @@ void UltrasonicLayer::updateCostmap(
   // Update Map with Target Point
   unsigned int aa, ab; // CHANGE THIS TO ARRAY
   if (worldToMap(tx, ty, aa, ab)) { 
-    setCost(aa, ab, 233);
+    setCost(aa, ab, 254); // set to max value, why would you not have this at max value???
     touch(tx, ty, &min_x_, &min_y_, &max_x_, &max_y_);
   }
 
   double mx, my;
-
+  int _sideofcone = 3;
   // Update left side of sonar cone
-  mx = ox + cos(theta - max_angle_) * d * 1.2;
-  my = oy + sin(theta - max_angle_) * d * 1.2;
+  mx = ox + cos(theta - max_angle_) * d * _sideofcone; // to adjust the area of the cone change added _sideofcone
+  my = oy + sin(theta - max_angle_) * d * _sideofcone;
   worldToMapNoBounds(mx, my, Ax, Ay);
   bx0 = std::min(bx0, Ax);
   bx1 = std::max(bx1, Ax);
@@ -348,8 +371,8 @@ void UltrasonicLayer::updateCostmap(
   touch(mx, my, &min_x_, &min_y_, &max_x_, &max_y_);
 
   // Update right side of sonar cone
-  mx = ox + cos(theta + max_angle_) * d * 1.2;
-  my = oy + sin(theta + max_angle_) * d * 1.2;
+  mx = ox + cos(theta + max_angle_) * d * _sideofcone;
+  my = oy + sin(theta + max_angle_) * d * _sideofcone;
 
   worldToMapNoBounds(mx, my, Bx, By);
   bx0 = std::min(bx0, Bx);

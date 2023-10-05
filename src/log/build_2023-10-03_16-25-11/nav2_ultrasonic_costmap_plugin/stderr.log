@@ -1,0 +1,33 @@
+In file included from [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:48[m[K:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:[m[K In member function ‘[01m[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(double, double, double, double)[m[K’:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:276:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  276 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateCostmap(sensor_msgs::msg::Range&, bool)[m[K’:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:407:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(unsigned int&, unsigned int&, int&, int&, int&, int&)[m[K’
+  407 |         bool buffer = ([01;31m[KdistanceToSegment(x, y, Ax, Ay, Bx, By)[m[K <= buffer_distance ||
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:48[m[K:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(double, double, double, double)[m[K’
+  240 |   double [01;36m[KdistanceToSegment[m[K(double x, double y, double x1, double y1) { // added new function
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:408:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(unsigned int&, unsigned int&, int&, int&, int&, int&)[m[K’
+  408 |             [01;31m[KdistanceToSegment(x, y, Bx, By, Ox, Oy)[m[K <= buffer_distance ||
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:48[m[K:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(double, double, double, double)[m[K’
+  240 |   double [01;36m[KdistanceToSegment[m[K(double x, double y, double x1, double y1) { // added new function
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:409:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(unsigned int&, unsigned int&, int&, int&, int&, int&)[m[K’
+  409 |             [01;31m[KdistanceToSegment(x, y, Ox, Oy, Ax, Ay)[m[K <= buffer_distance);
+      |             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:48[m[K:
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::distanceToSegment(double, double, double, double)[m[K’
+  240 |   double [01;36m[KdistanceToSegment[m[K(double x, double y, double x1, double y1) { // added new function
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/include/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.hpp:240:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 6 provided
+gmake[2]: *** [CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/build.make:76: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

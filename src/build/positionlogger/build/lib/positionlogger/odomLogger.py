@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from nav_msgs.msg import Odometry
-
+import datetime
 class OdomLogger(Node):
     def __init__(self):
         super().__init__('odom_logger')
@@ -12,7 +12,7 @@ class OdomLogger(Node):
             self.odom_callback,
             10)
         self.subscription  # prevent unused variable warning
-        self.file = open('odom.txt', 'w')
+        self.file = open('{}odom.txt', 'w')
 
     def odom_callback(self, msg):
         x = msg.pose.pose.position.x

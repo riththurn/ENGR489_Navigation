@@ -1,0 +1,28 @@
+[0.010s] Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target nav2_ultrasonic_costmap_plugin_core[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o[0m
+[6.205s] [100%] [32m[1mLinking CXX shared library libnav2_ultrasonic_costmap_plugin_core.so[0m
+[6.618s] [100%] Built target nav2_ultrasonic_costmap_plugin_core
+[6.630s] Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[6.657s] Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin
+[6.663s] -- Install configuration: ""
+[6.663s] -- Installing: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/lib/libnav2_ultrasonic_costmap_plugin_core.so
+[6.670s] -- Set runtime path of "/home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/lib/libnav2_ultrasonic_costmap_plugin_core.so" to ""
+[6.673s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.xml
+[6.675s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_ultrasonic_costmap_plugin
+[6.676s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_ultrasonic_costmap_plugin
+[6.678s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/ament_prefix_path.sh
+[6.679s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/ament_prefix_path.dsv
+[6.679s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/path.sh
+[6.680s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/path.dsv
+[6.680s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.bash
+[6.680s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.sh
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.zsh
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.dsv
+[6.682s] -- Installing: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.dsv
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/packages/nav2_ultrasonic_costmap_plugin
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_ultrasonic_costmap_plugin
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/cmake/nav2_ultrasonic_costmap_pluginConfig.cmake
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/cmake/nav2_ultrasonic_costmap_pluginConfig-version.cmake
+[6.682s] -- Up-to-date: /home/ubuntu/Documents/ENGR489_Navigation/src/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.xml
+[6.682s] Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin

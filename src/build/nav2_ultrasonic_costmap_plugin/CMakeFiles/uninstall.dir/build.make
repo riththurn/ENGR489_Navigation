@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin
+CMAKE_SOURCE_DIR = /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin
+CMAKE_BINARY_DIR = /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin /home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

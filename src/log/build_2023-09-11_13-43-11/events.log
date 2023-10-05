@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000106] (-) JobUnselected: {'identifier': 'positionlogger'}
+[0.000157] (nav2_ultrasonic_costmap_plugin) JobQueued: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'dependencies': OrderedDict()}
+[0.000177] (nav2_ultrasonic_costmap_plugin) JobStarted: {'identifier': 'nav2_ultrasonic_costmap_plugin'}
+[0.007171] (nav2_ultrasonic_costmap_plugin) JobProgress: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'progress': 'cmake'}
+[0.008204] (nav2_ultrasonic_costmap_plugin) JobProgress: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'progress': 'build'}
+[0.008259] (nav2_ultrasonic_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_all', 'en_NZ.UTF-8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eeen325-master:@/tmp/.ICE-unix/1548,unix/eeen325-master:/tmp/.ICE-unix/1548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fde10ddb_fa9b_4c6e_83fe_1d1398956ead'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3WMVA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.209'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044663] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_ultrasonic_costmap_plugin_core\x1b[0m\n'}
+[0.059799] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o\x1b[0m\n'}
+[0.099243] (-) TimerEvent: {}
+[0.200260] (-) TimerEvent: {}
+[0.300836] (-) TimerEvent: {}
+[0.401364] (-) TimerEvent: {}
+[0.501662] (-) TimerEvent: {}
+[0.602405] (-) TimerEvent: {}
+[0.703595] (-) TimerEvent: {}
+[0.804163] (-) TimerEvent: {}
+[0.904670] (-) TimerEvent: {}
+[1.005172] (-) TimerEvent: {}
+[1.105677] (-) TimerEvent: {}
+[1.206205] (-) TimerEvent: {}
+[1.306466] (-) TimerEvent: {}
+[1.407307] (-) TimerEvent: {}
+[1.507807] (-) TimerEvent: {}
+[1.608396] (-) TimerEvent: {}
+[1.708936] (-) TimerEvent: {}
+[1.809448] (-) TimerEvent: {}
+[1.909790] (-) TimerEvent: {}
+[2.003230] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::onInitialize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.003401] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:66:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdefault_value_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.003448] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'   66 |   \x1b[01;31m\x1b[Kdefault_value_\x1b[m\x1b[K = to_cost(0.5);\n'}
+[2.003486] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.010482] (-) TimerEvent: {}
+[2.022739] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::get_deltas(double, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.022906] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:186:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresolution_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.022954] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  186 |     *dx = \x1b[01;31m\x1b[Kresolution_\x1b[m\x1b[K / ta;\n'}
+[2.022990] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.027825] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:190:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresolution_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.027918] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  190 |   *dy = copysign(\x1b[01;31m\x1b[Kresolution_\x1b[m\x1b[K, sin(angle));\n'}
+[2.028062] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.035542] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::sensor_model(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.035661] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:197:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresolution_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.035705] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  197 |   double delta = \x1b[01;31m\x1b[Kresolution_\x1b[m\x1b[K;\n'}
+[2.035741] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.048825] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateCostmap(sensor_msgs::msg::Range&, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.048997] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:326:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KworldToMapNoBounds\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.049090] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  326 |   \x1b[01;31m\x1b[KworldToMapNoBounds\x1b[m\x1b[K(ox, oy, Ox, Oy);\n'}
+[2.049147] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.053467] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:329:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktouch\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.053736] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  329 |   \x1b[01;31m\x1b[Ktouch\x1b[m\x1b[K(ox, oy, &min_x_, &min_y_, &max_x_, &max_y_);\n'}
+[2.053796] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.059599] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:333:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KworldToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.059727] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  333 |   if (\x1b[01;31m\x1b[KworldToMap\x1b[m\x1b[K(tx, ty, aa, ab)) {\n'}
+[2.059769] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.063401] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:334:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetCost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.063520] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  334 |     \x1b[01;31m\x1b[KsetCost\x1b[m\x1b[K(aa, ab, 233);\n'}
+[2.063562] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.071951] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:364:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.072135] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  364 |   bx1 = std::min(static_cast<int>(\x1b[01;31m\x1b[Ksize_x_\x1b[m\x1b[K), bx1);\n'}
+[2.072177] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.072221] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Ksize_t\x1b[m\x1b[K\n'}
+[2.076061] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:365:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.076172] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  365 |   by1 = std::min(static_cast<int>(\x1b[01;31m\x1b[Ksize_y_\x1b[m\x1b[K), by1);\n'}
+[2.076214] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.076251] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Ksize_t\x1b[m\x1b[K\n'}
+[2.080743] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:390:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapToWorld\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.080845] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  390 |         \x1b[01;31m\x1b[KmapToWorld\x1b[m\x1b[K(x, y, wx, wy);\n'}
+[2.080886] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.086034] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::update_cell(double, double, double, double, double, double, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.086165] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:405:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KworldToMap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.086208] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  405 |   if (\x1b[01;31m\x1b[KworldToMap\x1b[m\x1b[K(nx, ny, x, y)) {\n'}
+[2.086245] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.090267] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:414:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetCost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgetopt\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.090389] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  414 |     double prior = to_prob(\x1b[01;31m\x1b[KgetCost\x1b[m\x1b[K(x, y));\n'}
+[2.090482] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.090521] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kgetopt\x1b[m\x1b[K\n'}
+[2.094956] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:426:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetCost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.095078] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  426 |     \x1b[01;31m\x1b[KsetCost\x1b[m\x1b[K(x, y, c);\n'}
+[2.095144] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.101591] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateBounds(double, double, double, double*, double*, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.101760] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetSizeInMetersX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.101811] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  443 |     updateOrigin(robot_x - \x1b[01;31m\x1b[KgetSizeInMetersX\x1b[m\x1b[K() / 2, robot_y - getSizeInMetersY() / 2);\n'}
+[2.101877] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.108216] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetSizeInMetersY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.108350] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  443 |     updateOrigin(robot_x - getSizeInMetersX() / 2, robot_y - \x1b[01;31m\x1b[KgetSizeInMetersY\x1b[m\x1b[K() / 2);\n'}
+[2.108393] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.110994] (-) TimerEvent: {}
+[2.113897] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KupdateOrigin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.113995] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  443 |     \x1b[01;31m\x1b[KupdateOrigin\x1b[m\x1b[K(robot_x - getSizeInMetersX() / 2, robot_y - getSizeInMetersY() / 2);\n'}
+[2.114038] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.118834] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.118941] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:490:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.118994] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  490 |       unsigned char prob = \x1b[01;31m\x1b[Kcostmap_\x1b[m\x1b[K[it];\n'}
+[2.119032] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.123691] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::reset()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.123857] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:526:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KresetMaps\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.123947] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'  526 |   \x1b[01;31m\x1b[KresetMaps\x1b[m\x1b[K();\n'}
+[2.124003] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.211517] (-) TimerEvent: {}
+[2.312101] (-) TimerEvent: {}
+[2.412393] (-) TimerEvent: {}
+[2.513149] (-) TimerEvent: {}
+[2.613676] (-) TimerEvent: {}
+[2.714225] (-) TimerEvent: {}
+[2.814737] (-) TimerEvent: {}
+[2.915255] (-) TimerEvent: {}
+[3.015789] (-) TimerEvent: {}
+[3.116289] (-) TimerEvent: {}
+[3.216885] (-) TimerEvent: {}
+[3.317400] (-) TimerEvent: {}
+[3.417933] (-) TimerEvent: {}
+[3.518447] (-) TimerEvent: {}
+[3.619007] (-) TimerEvent: {}
+[3.719521] (-) TimerEvent: {}
+[3.820036] (-) TimerEvent: {}
+[3.825250] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/build.make:76: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o] Error 1\n'}
+[3.825560] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/all] Error 2\n'}
+[3.825609] (nav2_ultrasonic_costmap_plugin) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.827068] (nav2_ultrasonic_costmap_plugin) CommandEnded: {'returncode': 2}
+[3.863054] (nav2_ultrasonic_costmap_plugin) JobEnded: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'rc': 2}
+[3.864437] (-) EventReactorShutdown: {}

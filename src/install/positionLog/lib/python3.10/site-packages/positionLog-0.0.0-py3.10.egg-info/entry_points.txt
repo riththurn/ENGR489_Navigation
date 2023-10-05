@@ -1,4 +1,0 @@
-[console_scripts]
-odomLogger = ROS2_WS.positionLog.odomLogger:main
-relativePositionLogger = ROS2_WS.positionLog.relativePositionLogger:main
-

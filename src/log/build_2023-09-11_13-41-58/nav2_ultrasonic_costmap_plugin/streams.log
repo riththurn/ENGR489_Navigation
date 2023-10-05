@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target nav2_ultrasonic_costmap_plugin_core[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o[0m
+[2.174s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::onInitialize()[m[K’:
+[2.174s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_value_[m[K’ was not declared in this scope
+[2.174s]    66 |   [01;31m[Kdefault_value_[m[K = to_cost(0.5);
+[2.174s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.193s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::get_deltas(double, double*, double*)[m[K’:
+[2.193s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:186:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[2.193s]   186 |     *dx = [01;31m[Kresolution_[m[K / ta;
+[2.194s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[2.198s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:190:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[2.198s]   190 |   *dy = copysign([01;31m[Kresolution_[m[K, sin(angle));
+[2.199s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[2.203s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kdouble nav2_ultrasonic_costmap_plugin::UltrasonicLayer::sensor_model(double, double, double)[m[K’:
+[2.204s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:197:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kresolution_[m[K’ was not declared in this scope
+[2.204s]   197 |   double delta = [01;31m[Kresolution_[m[K;
+[2.204s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[2.216s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateCostmap(sensor_msgs::msg::Range&, bool)[m[K’:
+[2.216s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:326:3:[m[K [01;31m[Kerror: [m[K‘[01m[KworldToMapNoBounds[m[K’ was not declared in this scope
+[2.216s]   326 |   [01;31m[KworldToMapNoBounds[m[K(ox, oy, Ox, Oy);
+[2.216s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.219s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:329:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktouch[m[K’ was not declared in this scope
+[2.219s]   329 |   [01;31m[Ktouch[m[K(ox, oy, &min_x_, &min_y_, &max_x_, &max_y_);
+[2.219s]       |   [01;31m[K^~~~~[m[K
+[2.224s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:333:7:[m[K [01;31m[Kerror: [m[K‘[01m[KworldToMap[m[K’ was not declared in this scope
+[2.224s]   333 |   if ([01;31m[KworldToMap[m[K(tx, ty, aa, ab)) {
+[2.224s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.227s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:334:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetCost[m[K’ was not declared in this scope
+[2.227s]   334 |     [01;31m[KsetCost[m[K(aa, ab, 233);
+[2.227s]       |     [01;31m[K^~~~~~~[m[K
+[2.235s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:364:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_x_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[2.235s]   364 |   bx1 = std::min(static_cast<int>([01;31m[Ksize_x_[m[K), bx1);
+[2.236s]       |                                   [01;31m[K^~~~~~~[m[K
+[2.236s]       |                                   [32m[Ksize_t[m[K
+[2.241s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:365:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksize_t[m[K’?
+[2.241s]   365 |   by1 = std::min(static_cast<int>([01;31m[Ksize_y_[m[K), by1);
+[2.241s]       |                                   [01;31m[K^~~~~~~[m[K
+[2.241s]       |                                   [32m[Ksize_t[m[K
+[2.246s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:390:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmapToWorld[m[K’ was not declared in this scope
+[2.246s]   390 |         [01;31m[KmapToWorld[m[K(x, y, wx, wy);
+[2.246s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.252s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvoid nav2_ultrasonic_costmap_plugin::UltrasonicLayer::update_cell(double, double, double, double, double, double, bool)[m[K’:
+[2.252s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:405:7:[m[K [01;31m[Kerror: [m[K‘[01m[KworldToMap[m[K’ was not declared in this scope
+[2.252s]   405 |   if ([01;31m[KworldToMap[m[K(nx, ny, x, y)) {
+[2.252s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.255s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:414:28:[m[K [01;31m[Kerror: [m[K‘[01m[KgetCost[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetopt[m[K’?
+[2.255s]   414 |     double prior = to_prob([01;31m[KgetCost[m[K(x, y));
+[2.255s]       |                            [01;31m[K^~~~~~~[m[K
+[2.256s]       |                            [32m[Kgetopt[m[K
+[2.260s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:426:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetCost[m[K’ was not declared in this scope
+[2.261s]   426 |     [01;31m[KsetCost[m[K(x, y, c);
+[2.261s]       |     [01;31m[K^~~~~~~[m[K
+[2.268s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateBounds(double, double, double, double*, double*, double*, double*)[m[K’:
+[2.268s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:28:[m[K [01;31m[Kerror: [m[K‘[01m[KgetSizeInMetersX[m[K’ was not declared in this scope
+[2.268s]   443 |     updateOrigin(robot_x - [01;31m[KgetSizeInMetersX[m[K() / 2, robot_y - getSizeInMetersY() / 2);
+[2.268s]       |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.275s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:62:[m[K [01;31m[Kerror: [m[K‘[01m[KgetSizeInMetersY[m[K’ was not declared in this scope
+[2.275s]   443 |     updateOrigin(robot_x - getSizeInMetersX() / 2, robot_y - [01;31m[KgetSizeInMetersY[m[K() / 2);
+[2.275s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.279s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:443:5:[m[K [01;31m[Kerror: [m[K‘[01m[KupdateOrigin[m[K’ was not declared in this scope
+[2.280s]   443 |     [01;31m[KupdateOrigin[m[K(robot_x - getSizeInMetersX() / 2, robot_y - getSizeInMetersY() / 2);
+[2.280s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[2.285s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::updateCosts(nav2_costmap_2d::Costmap2D&, int, int, int, int)[m[K’:
+[2.285s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:490:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+[2.285s]   490 |       unsigned char prob = [01;31m[Kcostmap_[m[K[it];
+[2.285s]       |                            [01;31m[K^~~~~~~~[m[K
+[2.290s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_ultrasonic_costmap_plugin::UltrasonicLayer::reset()[m[K’:
+[2.290s] [01m[K/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin/src/ultrasonic_layer.cpp:526:3:[m[K [01;31m[Kerror: [m[K‘[01m[KresetMaps[m[K’ was not declared in this scope
+[2.290s]   526 |   [01;31m[KresetMaps[m[K();
+[2.290s]       |   [01;31m[K^~~~~~~~~[m[K
+[4.054s] gmake[2]: *** [CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/build.make:76: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o] Error 1
+[4.054s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/all] Error 2
+[4.054s] gmake: *** [Makefile:146: all] Error 2
+[4.055s] Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/Documents/ENGR489_Navigation/src/build/nav2_ultrasonic_costmap_plugin -- -j4 -l4

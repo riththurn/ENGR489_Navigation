@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hurnenryan/Documents/workspaces/ros2_ws/src/build/nav2_plugin_ultrasonic/libnav2_plugin_ultrasonic_core.so" "TARGETS" "nav2_plugin_ultrasonic_core" "DESTINATION" "lib")

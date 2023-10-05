@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (-) JobUnselected: {'identifier': 'nav2_ultrasonic_costmap_plugin'}
+[0.000331] (-) JobUnselected: {'identifier': 'positionlogger'}
+[0.000702] (-) EventReactorShutdown: {}

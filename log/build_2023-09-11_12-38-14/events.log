@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000831] (nav2_ultrasonic_costmap_plugin) JobQueued: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'dependencies': OrderedDict()}
+[0.000900] (positionlogger) JobQueued: {'identifier': 'positionlogger', 'dependencies': OrderedDict()}
+[0.001431] (nav2_ultrasonic_costmap_plugin) JobStarted: {'identifier': 'nav2_ultrasonic_costmap_plugin'}
+[0.009624] (positionlogger) JobStarted: {'identifier': 'positionlogger'}
+[0.022527] (nav2_ultrasonic_costmap_plugin) JobProgress: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'progress': 'cmake'}
+[0.023243] (nav2_ultrasonic_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/Documents/ENGR489_Navigation/src/nav2_ultrasonic_costmap_plugin', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin'], 'cwd': '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_all', 'en_NZ.UTF-8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eeen325-master:@/tmp/.ICE-unix/1548,unix/eeen325-master:/tmp/.ICE-unix/1548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff1dbc94_cb1a_4e26_8168_8bd89fc9bbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3WMVA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/opt/ros/humble')]), 'shell': False}
+[0.099418] (-) TimerEvent: {}
+[0.118172] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.176772] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190587] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200169] (-) TimerEvent: {}
+[0.284447] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.290685] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.291505] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.292260] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.296641] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300410] (-) TimerEvent: {}
+[0.382046] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.390426] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.391377] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.391972] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399729] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400523] (-) TimerEvent: {}
+[0.501831] (-) TimerEvent: {}
+[0.594790] (positionlogger) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/positionlogger', 'build', '--build-base', '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build', 'install', '--record', '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NZ:en', 'USER': 'ubuntu', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/ENGR489_Navigation/install', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1582', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_all': 'en_NZ.UTF-8', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ubuntu/Documents/ENGR489_Navigation/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eeen325-master:@/tmp/.ICE-unix/1548,unix/eeen325-master:/tmp/.ICE-unix/1548', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ff1dbc94_cb1a_4e26_8168_8bd89fc9bbc4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_NZ.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3WMVA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/prefix_override:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin'}, 'shell': False}
+[0.610204] (-) TimerEvent: {}
+[0.663443] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.710376] (-) TimerEvent: {}
+[0.810784] (-) TimerEvent: {}
+[0.831501] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.859778] (positionlogger) StdoutLine: {'line': b'running egg_info\n'}
+[0.861392] (positionlogger) StdoutLine: {'line': b'creating ../../build/positionlogger/positionlogger.egg-info\n'}
+[0.861604] (positionlogger) StdoutLine: {'line': b'writing ../../build/positionlogger/positionlogger.egg-info/PKG-INFO\n'}
+[0.861764] (positionlogger) StdoutLine: {'line': b'writing dependency_links to ../../build/positionlogger/positionlogger.egg-info/dependency_links.txt\n'}
+[0.861864] (positionlogger) StdoutLine: {'line': b'writing entry points to ../../build/positionlogger/positionlogger.egg-info/entry_points.txt\n'}
+[0.862033] (positionlogger) StdoutLine: {'line': b'writing requirements to ../../build/positionlogger/positionlogger.egg-info/requires.txt\n'}
+[0.862102] (positionlogger) StdoutLine: {'line': b'writing top-level names to ../../build/positionlogger/positionlogger.egg-info/top_level.txt\n'}
+[0.862221] (positionlogger) StdoutLine: {'line': b"writing manifest file '../../build/positionlogger/positionlogger.egg-info/SOURCES.txt'\n"}
+[0.864383] (positionlogger) StdoutLine: {'line': b"reading manifest file '../../build/positionlogger/positionlogger.egg-info/SOURCES.txt'\n"}
+[0.865111] (positionlogger) StdoutLine: {'line': b"writing manifest file '../../build/positionlogger/positionlogger.egg-info/SOURCES.txt'\n"}
+[0.865306] (positionlogger) StdoutLine: {'line': b'running build\n'}
+[0.865424] (positionlogger) StdoutLine: {'line': b'running build_py\n'}
+[0.865553] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build\n'}
+[0.865638] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib\n'}
+[0.865714] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger\n'}
+[0.865754] (positionlogger) StdoutLine: {'line': b'copying positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger\n'}
+[0.865852] (positionlogger) StdoutLine: {'line': b'copying positionlogger/__init__.py -> /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger\n'}
+[0.865909] (positionlogger) StdoutLine: {'line': b'copying positionlogger/odomLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger\n'}
+[0.865950] (positionlogger) StdoutLine: {'line': b'running install\n'}
+[0.866089] (positionlogger) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.866170] (positionlogger) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.866448] (positionlogger) StdoutLine: {'line': b'running install_lib\n'}
+[0.867176] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger\n'}
+[0.867395] (positionlogger) StdoutLine: {'line': b'copying /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger\n'}
+[0.867449] (positionlogger) StdoutLine: {'line': b'copying /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger/__init__.py -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger\n'}
+[0.867491] (positionlogger) StdoutLine: {'line': b'copying /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger/odomLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger\n'}
+[0.867692] (positionlogger) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger/relativePositionLogger.py to relativePositionLogger.cpython-310.pyc\n'}
+[0.868149] (positionlogger) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger/__init__.py to __init__.cpython-310.pyc\n'}
+[0.868250] (positionlogger) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger/odomLogger.py to odomLogger.cpython-310.pyc\n'}
+[0.868473] (positionlogger) StdoutLine: {'line': b'running install_data\n'}
+[0.868803] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/share/ament_index\n'}
+[0.868919] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/share/ament_index/resource_index\n'}
+[0.869028] (positionlogger) StdoutLine: {'line': b'creating /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/share/ament_index/resource_index/packages\n'}
+[0.869095] (positionlogger) StdoutLine: {'line': b'copying resource/positionlogger -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/share/ament_index/resource_index/packages\n'}
+[0.869142] (positionlogger) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/share/positionlogger\n'}
+[0.869181] (positionlogger) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.870330] (positionlogger) StdoutLine: {'line': b'Copying ../../build/positionlogger/positionlogger.egg-info to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info\n'}
+[0.870864] (positionlogger) StdoutLine: {'line': b'running install_scripts\n'}
+[0.890426] (positionlogger) StdoutLine: {'line': b'Installing odomLogger script to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/positionlogger\n'}
+[0.890594] (positionlogger) StdoutLine: {'line': b'Installing relativePositionLogger script to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/positionlogger\n'}
+[0.890646] (positionlogger) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/install.log'\n"}
+[0.912148] (-) TimerEvent: {}
+[0.925595] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.934610] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.940063] (positionlogger) CommandEnded: {'returncode': 0}
+[0.951516] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.951722] (positionlogger) JobEnded: {'identifier': 'positionlogger', 'rc': 0}
+[0.973480] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.998918] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.012493] (-) TimerEvent: {}
+[1.103974] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.109416] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.112733] (-) TimerEvent: {}
+[1.213359] (-) TimerEvent: {}
+[1.232391] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.261733] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.298265] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.313601] (-) TimerEvent: {}
+[1.316397] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.415041] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.415193] (-) TimerEvent: {}
+[1.415289] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.499538] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.499831] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.515365] (-) TimerEvent: {}
+[1.615868] (-) TimerEvent: {}
+[1.686798] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.6 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.716193] (-) TimerEvent: {}
+[1.816630] (-) TimerEvent: {}
+[1.917072] (-) TimerEvent: {}
+[2.017541] (-) TimerEvent: {}
+[2.117905] (-) TimerEvent: {}
+[2.218339] (-) TimerEvent: {}
+[2.318846] (-) TimerEvent: {}
+[2.419230] (-) TimerEvent: {}
+[2.519682] (-) TimerEvent: {}
+[2.584786] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.584954] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.619854] (-) TimerEvent: {}
+[2.720233] (-) TimerEvent: {}
+[2.820774] (-) TimerEvent: {}
+[2.921511] (-) TimerEvent: {}
+[3.021937] (-) TimerEvent: {}
+[3.122481] (-) TimerEvent: {}
+[3.223310] (-) TimerEvent: {}
+[3.325409] (-) TimerEvent: {}
+[3.426330] (-) TimerEvent: {}
+[3.526999] (-) TimerEvent: {}
+[3.627549] (-) TimerEvent: {}
+[3.727962] (-) TimerEvent: {}
+[3.736828] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.773303] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Generating done\n'}
+[3.776963] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin\n'}
+[3.787932] (nav2_ultrasonic_costmap_plugin) CommandEnded: {'returncode': 0}
+[3.788817] (nav2_ultrasonic_costmap_plugin) JobProgress: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'progress': 'build'}
+[3.788845] (nav2_ultrasonic_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_all', 'en_NZ.UTF-8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eeen325-master:@/tmp/.ICE-unix/1548,unix/eeen325-master:/tmp/.ICE-unix/1548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff1dbc94_cb1a_4e26_8168_8bd89fc9bbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3WMVA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/opt/ros/humble')]), 'shell': False}
+[3.828169] (-) TimerEvent: {}
+[3.854417] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_ultrasonic_costmap_plugin_core.dir/src/ultrasonic_layer.cpp.o\x1b[0m\n'}
+[3.929351] (-) TimerEvent: {}
+[4.029989] (-) TimerEvent: {}
+[4.130588] (-) TimerEvent: {}
+[4.231158] (-) TimerEvent: {}
+[4.331668] (-) TimerEvent: {}
+[4.432305] (-) TimerEvent: {}
+[4.532706] (-) TimerEvent: {}
+[4.633101] (-) TimerEvent: {}
+[4.733539] (-) TimerEvent: {}
+[4.834207] (-) TimerEvent: {}
+[4.934695] (-) TimerEvent: {}
+[5.035177] (-) TimerEvent: {}
+[5.135882] (-) TimerEvent: {}
+[5.236426] (-) TimerEvent: {}
+[5.337307] (-) TimerEvent: {}
+[5.437682] (-) TimerEvent: {}
+[5.538233] (-) TimerEvent: {}
+[5.639287] (-) TimerEvent: {}
+[5.740010] (-) TimerEvent: {}
+[5.840912] (-) TimerEvent: {}
+[5.941332] (-) TimerEvent: {}
+[6.041685] (-) TimerEvent: {}
+[6.142553] (-) TimerEvent: {}
+[6.243466] (-) TimerEvent: {}
+[6.344264] (-) TimerEvent: {}
+[6.444887] (-) TimerEvent: {}
+[6.546203] (-) TimerEvent: {}
+[6.646732] (-) TimerEvent: {}
+[6.747122] (-) TimerEvent: {}
+[6.847722] (-) TimerEvent: {}
+[6.948399] (-) TimerEvent: {}
+[7.048856] (-) TimerEvent: {}
+[7.149331] (-) TimerEvent: {}
+[7.249851] (-) TimerEvent: {}
+[7.350416] (-) TimerEvent: {}
+[7.450847] (-) TimerEvent: {}
+[7.551377] (-) TimerEvent: {}
+[7.651751] (-) TimerEvent: {}
+[7.752508] (-) TimerEvent: {}
+[7.853352] (-) TimerEvent: {}
+[7.953988] (-) TimerEvent: {}
+[8.054423] (-) TimerEvent: {}
+[8.154980] (-) TimerEvent: {}
+[8.255522] (-) TimerEvent: {}
+[8.356046] (-) TimerEvent: {}
+[8.456589] (-) TimerEvent: {}
+[8.557356] (-) TimerEvent: {}
+[8.658550] (-) TimerEvent: {}
+[8.758970] (-) TimerEvent: {}
+[8.859613] (-) TimerEvent: {}
+[8.960123] (-) TimerEvent: {}
+[9.063330] (-) TimerEvent: {}
+[9.166125] (-) TimerEvent: {}
+[9.266662] (-) TimerEvent: {}
+[9.367210] (-) TimerEvent: {}
+[9.469888] (-) TimerEvent: {}
+[9.570583] (-) TimerEvent: {}
+[9.671111] (-) TimerEvent: {}
+[9.771592] (-) TimerEvent: {}
+[9.872000] (-) TimerEvent: {}
+[9.972642] (-) TimerEvent: {}
+[10.073355] (-) TimerEvent: {}
+[10.173783] (-) TimerEvent: {}
+[10.274175] (-) TimerEvent: {}
+[10.374530] (-) TimerEvent: {}
+[10.474979] (-) TimerEvent: {}
+[10.575409] (-) TimerEvent: {}
+[10.675890] (-) TimerEvent: {}
+[10.776313] (-) TimerEvent: {}
+[10.877555] (-) TimerEvent: {}
+[10.978031] (-) TimerEvent: {}
+[11.078386] (-) TimerEvent: {}
+[11.178747] (-) TimerEvent: {}
+[11.279143] (-) TimerEvent: {}
+[11.381068] (-) TimerEvent: {}
+[11.481503] (-) TimerEvent: {}
+[11.582335] (-) TimerEvent: {}
+[11.682940] (-) TimerEvent: {}
+[11.783335] (-) TimerEvent: {}
+[11.883837] (-) TimerEvent: {}
+[11.984847] (-) TimerEvent: {}
+[12.085503] (-) TimerEvent: {}
+[12.186038] (-) TimerEvent: {}
+[12.230084] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_ultrasonic_costmap_plugin_core.so\x1b[0m\n'}
+[12.286467] (-) TimerEvent: {}
+[12.386939] (-) TimerEvent: {}
+[12.487498] (-) TimerEvent: {}
+[12.588072] (-) TimerEvent: {}
+[12.688809] (-) TimerEvent: {}
+[12.789410] (-) TimerEvent: {}
+[12.868458] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'[100%] Built target nav2_ultrasonic_costmap_plugin_core\n'}
+[12.878858] (nav2_ultrasonic_costmap_plugin) CommandEnded: {'returncode': 0}
+[12.889620] (-) TimerEvent: {}
+[12.918072] (nav2_ultrasonic_costmap_plugin) JobProgress: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'progress': 'install'}
+[12.928934] (nav2_ultrasonic_costmap_plugin) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin'], 'cwd': '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NZ:en'), ('USER', 'ubuntu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1582'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('LC_all', 'en_NZ.UTF-8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/eeen325-master:@/tmp/.ICE-unix/1548,unix/eeen325-master:/tmp/.ICE-unix/1548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff1dbc94_cb1a_4e26_8168_8bd89fc9bbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_NZ.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3WMVA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/Documents/ENGR489_Navigation/build/nav2_ultrasonic_costmap_plugin'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger:/opt/ros/humble')]), 'shell': False}
+[12.939497] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.939682] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib/libnav2_ultrasonic_costmap_plugin_core.so\n'}
+[12.948240] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/lib/libnav2_ultrasonic_costmap_plugin_core.so" to ""\n'}
+[12.948526] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/ultrasonic_layer.xml\n'}
+[12.948655] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_ultrasonic_costmap_plugin\n'}
+[12.950319] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_ultrasonic_costmap_plugin\n'}
+[12.950477] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/ament_prefix_path.sh\n'}
+[12.950526] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/ament_prefix_path.dsv\n'}
+[12.950605] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/path.sh\n'}
+[12.950661] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/environment/path.dsv\n'}
+[12.950698] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.bash\n'}
+[12.950736] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.sh\n'}
+[12.950784] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.zsh\n'}
+[12.950821] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/local_setup.dsv\n'}
+[12.950858] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.dsv\n'}
+[12.950897] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/packages/nav2_ultrasonic_costmap_plugin\n'}
+[12.950972] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_ultrasonic_costmap_plugin\n'}
+[12.951621] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/cmake/nav2_ultrasonic_costmap_pluginConfig.cmake\n'}
+[12.951732] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/cmake/nav2_ultrasonic_costmap_pluginConfig-version.cmake\n'}
+[12.951800] (nav2_ultrasonic_costmap_plugin) StdoutLine: {'line': b'-- Installing: /home/ubuntu/Documents/ENGR489_Navigation/install/nav2_ultrasonic_costmap_plugin/share/nav2_ultrasonic_costmap_plugin/package.xml\n'}
+[12.957761] (nav2_ultrasonic_costmap_plugin) CommandEnded: {'returncode': 0}
+[12.989762] (-) TimerEvent: {}
+[13.006131] (nav2_ultrasonic_costmap_plugin) JobEnded: {'identifier': 'nav2_ultrasonic_costmap_plugin', 'rc': 0}
+[13.007192] (-) EventReactorShutdown: {}

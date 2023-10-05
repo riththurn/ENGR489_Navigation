@@ -1,0 +1,27 @@
+[0.451s] Invoking command in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger': PYTHONPATH=/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/prefix_override:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/positionlogger build --build-base /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build install --record /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/install.log --single-version-externally-managed
+[0.629s] running egg_info
+[0.629s] writing ../../build/positionlogger/positionlogger.egg-info/PKG-INFO
+[0.630s] writing dependency_links to ../../build/positionlogger/positionlogger.egg-info/dependency_links.txt
+[0.630s] writing entry points to ../../build/positionlogger/positionlogger.egg-info/entry_points.txt
+[0.631s] writing requirements to ../../build/positionlogger/positionlogger.egg-info/requires.txt
+[0.631s] writing top-level names to ../../build/positionlogger/positionlogger.egg-info/top_level.txt
+[0.633s] reading manifest file '../../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[0.633s] writing manifest file '../../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.634s] running build_py
+[0.634s] copying positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger
+[0.637s] running install
+[0.637s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.637s]   warnings.warn(
+[0.637s] running install_lib
+[0.638s] copying /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build/lib/positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger
+[0.639s] byte-compiling /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger/relativePositionLogger.py to relativePositionLogger.cpython-310.pyc
+[0.639s] running install_data
+[0.640s] running install_egg_info
+[0.641s] removing '/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info' (and everything under it)
+[0.641s] Copying ../../build/positionlogger/positionlogger.egg-info to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.657s] Installing odomLogger script to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/positionlogger
+[0.657s] Installing relativePositionLogger script to /home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/positionlogger
+[0.657s] writing list of installed files to '/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/install.log'
+[0.675s] Invoked command in '/home/ubuntu/Documents/ENGR489_Navigation/src/positionlogger' returned '0': PYTHONPATH=/home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/prefix_override:/home/ubuntu/Documents/ENGR489_Navigation/install/positionlogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/positionlogger build --build-base /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/build install --record /home/ubuntu/Documents/ENGR489_Navigation/build/positionlogger/install.log --single-version-externally-managed

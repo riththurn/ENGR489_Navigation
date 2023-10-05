@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/positionlogger/positionlogger.egg-info/PKG-INFO
+writing dependency_links to ../build/positionlogger/positionlogger.egg-info/dependency_links.txt
+writing entry points to ../build/positionlogger/positionlogger.egg-info/entry_points.txt
+writing requirements to ../build/positionlogger/positionlogger.egg-info/requires.txt
+writing top-level names to ../build/positionlogger/positionlogger.egg-info/top_level.txt
+reading manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+writing manifest file '../build/positionlogger/positionlogger.egg-info/SOURCES.txt'
+running build
+running build_py
+copying positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/build/lib/positionlogger
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/build/lib/positionlogger/relativePositionLogger.py -> /home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages/positionlogger
+byte-compiling /home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages/positionlogger/relativePositionLogger.py to relativePositionLogger.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after function definition on line 43 (relativePositionLogger.py, line 45)
+running install_data
+running install_egg_info
+removing '/home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/positionlogger/positionlogger.egg-info to /home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/python3.10/site-packages/positionlogger-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odomLogger script to /home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/positionlogger
+Installing relativePositionLogger script to /home/ubuntu/Documents/ENGR489_Navigation/src/install/positionlogger/lib/positionlogger
+writing list of installed files to '/home/ubuntu/Documents/ENGR489_Navigation/src/build/positionlogger/install.log'
